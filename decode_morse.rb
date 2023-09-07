@@ -18,14 +18,3 @@ def decode_word(word)
   end
   decoded_word
 end
-
-def decode_message(dec_word)
-  decoded_string = dec_word.split('   ')
-  decoded_phrase = ''
-  decoded_string.each do |n|
-    decoded_phrase += " #{decode_word(n)}"
-  end
-  decoded_phrase
-end
-
-puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
