@@ -1,19 +1,4 @@
-#     for a string
-#     words = message.split('   ')
-#     m = ''
-#     words.each do |word|
-#       letters = word.split(' ')
-#       letters.each do |letter|
-#         if morse_code.key?(letter)
-#           m += morse_code[letter]
-#         end
-#       end
-#       m += ' '
-#     end
-#     return m.strip
-#      end
 
-# morse code with corresponding character
 morse_code = {
   '.-' => 'A', '-...' => 'B', '-.-.' => 'C',
   '-..' => 'D', '.' => 'E', '..-.' => 'F',
